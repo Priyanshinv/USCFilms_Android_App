@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/footer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/recyclerView2"
+    android:layout_centerInParent="true"
+    >
+<TextView
+    android:id="@+id/footerLine1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:text="@string/powered_by_tmdb"
+    android:layout_centerInParent="true"
+    android:clickable="true"
+    android:textColor="@color/blue"
+    android:textSize="15sp" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/footerLine1"
+    android:paddingTop="15dp"
+    android:layout_marginTop="10dp"
+    android:textColor="@color/blue"
+    android:text="@string/developed_by"
+        android:textSize="15sp" />
+</RelativeLayout>

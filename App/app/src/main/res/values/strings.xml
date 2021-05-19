@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">USC Films</string>
+    <!-- <string name="base_url">http://192.168.1.65:8080</string> -->
+    <string name="base_url">https://csci571-hw9-311917.wl.r.appspot.com</string>
+    <string name="developed_by">Developed By Priyanshi Vora</string>
+    <string name="powered_by_tmdb">Powered By TMDB</string>
+    <string name="overview">Overview</string>
+    <string name="genre">Genres</string>
+    <string name="year">Year</string>
+    <string name="reviews">Reviews</string>
+    <string name="recommended_picks">Recommended Picks</string>
+    <string name="searchAlert">No result found.</string>
+    <string name="cast">Cast</string>
+</resources>
